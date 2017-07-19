@@ -1,0 +1,26 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    background-image: url('http://cdn.wallpapersafari.com/26/99/ZzIjKH.jpg');
+    background-size: cover;
+}
+
+.page-header h1 {
+    font-family: "Pacifico";
+    color: #00ff08;
+}
+
+.page-header small {
+    font-family: "Arial";
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: #12bccc;
+}
+
+.list-group .list-group-item:hover {
+    color: #fff;
+    background-color: #59fff3;
+}
